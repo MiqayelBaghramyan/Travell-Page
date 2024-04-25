@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe Flight</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <div class="logo_box">
+                <span>SAFE FLIGHT</span>
+            </div>
+            <nav class="navbar">
+                <ul class="nav_menu">
+                    <li class="nav_items">
+                        <a href="#">ABOUT</a>
+                        <a href="#">GROUP COMPANIES</a>
+                        <a href="#">TERMS</a>
+                        <a href="#">Privacy</a>
+                    </li>
+                </ul>
+            </nav>
+    
+            <div class="search_box_container">
+
+                <svg class="search_icon" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"
+                    fill="none">
+                    <path
+                        d="M9.56907 10L5.74681 6.17821C5.44162 6.43821 5.09064 6.63941 4.69389 6.78181C4.29714 6.92422 3.89835 6.99542 3.49753 6.99542C2.52009 6.99542 1.69281 6.65711 1.01569 5.98047C0.338562 5.30343 0 4.47645 0 3.49954C0 2.52263 0.338155 1.69525 1.01447 1.01739C1.69118 0.339131 2.51806 0 3.49509 0C4.47252 0 5.30021 0.338521 5.97815 1.01556C6.65609 1.69261 6.99506 2.51999 6.99506 3.49771C6.99506 3.92168 6.91998 4.33201 6.76982 4.72872C6.61926 5.12542 6.4219 5.46476 6.17775 5.74672L10 9.5679L9.56845 10H9.56907ZM3.49753 6.3845C4.30731 6.3845 4.99115 6.10579 5.54904 5.54837C6.10653 4.99095 6.38528 4.30719 6.38528 3.4971C6.38528 2.68742 6.10653 2.00387 5.54904 1.44644C4.99156 0.889024 4.30792 0.610314 3.49814 0.610314C2.68836 0.610314 2.00452 0.889024 1.44662 1.44644C0.889133 2.00387 0.610389 2.68742 0.610389 3.4971C0.610389 4.30678 0.889133 4.99034 1.44662 5.54776C2.00411 6.10518 2.68775 6.3845 3.49753 6.3845Z"
+                        fill="#010101" />
+                </svg>
+                <input type="text" placeholder="Search" class="search_box">
+            </div>
+            <nav class="top-nav" id="top-nav">
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <div class="first_page">
+            <img class="TravelPageImg" src="images/travelPageImg1.jpg" alt="">
+            <div class="tiper">
+                <button id="tipe" class="tipe">
+                    Economy
+                </button>
+                <button id="tipew" class="tipew">
+                    Business
+                </button>
+                <button id="tipe" class="tipes">
+                    First
+                </button>
+            </div>
+            <div class="location_box">
+                <div class="loc_where_are_you_going_box">
+                    <div class="loc_box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="7" height="9" viewBox="0 0 7 9" fill="none">
+                            <path
+                                d="M3.5 8.22412L0.815821 5.38155C0.778524 5.33887 0.741614 5.29591 0.705094 5.25269C0.246588 4.71034 -0.00110765 4.0479 3.72364e-06 3.36698C3.72364e-06 2.53344 0.368752 1.73404 1.02513 1.14464C1.68151 0.555243 2.57174 0.224121 3.5 0.224121C4.42826 0.224121 5.31849 0.555243 5.97487 1.14464C6.63125 1.73404 7 2.53344 7 3.36698C7.00111 4.04759 6.75352 4.70973 6.29522 5.25184L6.29491 5.25269C6.29491 5.25269 6.19945 5.36526 6.18513 5.38041L3.5 8.22412ZM1.21291 4.90841C1.21355 4.90841 1.28737 4.99641 1.30423 5.01526L3.5 7.34069L5.69863 5.01212C5.71263 4.99641 5.78709 4.90784 5.78741 4.90755C6.16195 4.46444 6.36437 3.92327 6.36363 3.36698C6.36363 2.68499 6.06193 2.03094 5.52489 1.5487C4.98786 1.06647 4.25948 0.79555 3.5 0.79555C2.74052 0.79555 2.01214 1.06647 1.47511 1.5487C0.93807 2.03094 0.636367 2.68499 0.636367 3.36698C0.635699 3.92362 0.838023 4.4651 1.21291 4.90841Z"
+                                fill="#071952" />
+                        </svg>
+                        <span>Location</span>
+                    </div>
+                    <span>Where are you going ?</span>
+                </div>
+
+                <div class="loc_where_are_you_going_box">
+                    <div class="loc_box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
+                            <path
+                                d="M3.85 5.84912C2.563 5.84912 0 6.60126 0 8.09912V9.22412H7.7V8.09912C7.7 6.60126 5.137 5.84912 3.85 5.84912ZM1.287 7.93841C1.749 7.56555 2.8655 7.13484 3.85 7.13484C4.8345 7.13484 5.951 7.56555 6.413 7.93841H1.287ZM3.85 4.72412C4.9115 4.72412 5.775 3.71484 5.775 2.47412C5.775 1.23341 4.9115 0.224121 3.85 0.224121C2.7885 0.224121 1.925 1.23341 1.925 2.47412C1.925 3.71484 2.7885 4.72412 3.85 4.72412ZM3.85 1.50984C4.3065 1.50984 4.675 1.94055 4.675 2.47412C4.675 3.00769 4.3065 3.43841 3.85 3.43841C3.3935 3.43841 3.025 3.00769 3.025 2.47412C3.025 1.94055 3.3935 1.50984 3.85 1.50984ZM7.722 5.88769C8.36 6.42769 8.8 7.14769 8.8 8.09912V9.22412H11V8.09912C11 6.80055 9.075 6.06126 7.722 5.88769ZM7.15 4.72412C8.2115 4.72412 9.075 3.71484 9.075 2.47412C9.075 1.23341 8.2115 0.224121 7.15 0.224121C6.853 0.224121 6.578 0.307692 6.325 0.449121C6.6715 1.02126 6.875 1.72198 6.875 2.47412C6.875 3.22626 6.6715 3.92698 6.325 4.49912C6.578 4.64055 6.853 4.72412 7.15 4.72412Z"
+                                fill="#071952" />
+                        </svg>
+                        <span>Travelers</span>
+                    </div>
+                    <span>Add guest</span>
+                </div>
+
+                <div class="loc_where_are_you_going_box">
+                    <div class="loc_box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
+                            <path
+                                d="M1 5.12172C1 3.57463 1 2.80088 1.5274 2.32046C2.05435 1.83964 2.90305 1.83964 4.6 1.83964H6.4C8.09695 1.83964 8.94565 1.83964 9.4726 2.32046C10 2.80088 10 3.57463 10 5.12172V5.94224C10 7.48933 10 8.26308 9.4726 8.74349C8.94565 9.22432 8.09695 9.22432 6.4 9.22432H4.6C2.90305 9.22432 2.05435 9.22432 1.5274 8.74349C1 8.26308 1 7.48933 1 5.94224V5.12172Z"
+                                stroke="#071952" stroke-width="1.5" />
+                            <path opacity="0.5" d="M3.25 1.83951V1.22412M7.75 1.83951V1.22412M1.225 3.89081H9.775"
+                                stroke="#071952" stroke-width="1.5" stroke-linecap="round" />
+                            <path
+                                d="M8.2 7.17301C8.2 7.28182 8.15259 7.38617 8.0682 7.46311C7.98381 7.54005 7.86935 7.58327 7.75 7.58327C7.63066 7.58327 7.5162 7.54005 7.4318 7.46311C7.34741 7.38617 7.3 7.28182 7.3 7.17301C7.3 7.0642 7.34741 6.95985 7.4318 6.88291C7.5162 6.80597 7.63066 6.76275 7.75 6.76275C7.86935 6.76275 7.98381 6.80597 8.0682 6.88291C8.15259 6.95985 8.2 7.0642 8.2 7.17301ZM8.2 5.53197C8.2 5.64078 8.15259 5.74513 8.0682 5.82207C7.98381 5.89901 7.86935 5.94223 7.75 5.94223C7.63066 5.94223 7.5162 5.89901 7.4318 5.82207C7.34741 5.74513 7.3 5.64078 7.3 5.53197C7.3 5.42316 7.34741 5.31881 7.4318 5.24187C7.5162 5.16493 7.63066 5.12171 7.75 5.12171C7.86935 5.12171 7.98381 5.16493 8.0682 5.24187C8.15259 5.31881 8.2 5.42316 8.2 5.53197ZM5.95 7.17301C5.95 7.28182 5.90259 7.38617 5.8182 7.46311C5.73381 7.54005 5.61935 7.58327 5.5 7.58327C5.38066 7.58327 5.2662 7.54005 5.1818 7.46311C5.09741 7.38617 5.05 7.28182 5.05 7.17301C5.05 7.0642 5.09741 6.95985 5.1818 6.88291C5.2662 6.80597 5.38066 6.76275 5.5 6.76275C5.61935 6.76275 5.73381 6.80597 5.8182 6.88291C5.90259 6.95985 5.95 7.0642 5.95 7.17301ZM5.95 5.53197C5.95 5.64078 5.90259 5.74513 5.8182 5.82207C5.73381 5.89901 5.61935 5.94223 5.5 5.94223C5.38066 5.94223 5.2662 5.89901 5.1818 5.82207C5.09741 5.74513 5.05 5.64078 5.05 5.53197C5.05 5.42316 5.09741 5.31881 5.1818 5.24187C5.2662 5.16493 5.38066 5.12171 5.5 5.12171C5.61935 5.12171 5.73381 5.16493 5.8182 5.24187C5.90259 5.31881 5.95 5.42316 5.95 5.53197ZM3.7 7.17301C3.7 7.28182 3.65259 7.38617 3.5682 7.46311C3.48381 7.54005 3.36935 7.58327 3.25 7.58327C3.13066 7.58327 3.0162 7.54005 2.93181 7.46311C2.84741 7.38617 2.8 7.28182 2.8 7.17301C2.8 7.0642 2.84741 6.95985 2.93181 6.88291C3.0162 6.80597 3.13066 6.76275 3.25 6.76275C3.36935 6.76275 3.48381 6.80597 3.5682 6.88291C3.65259 6.95985 3.7 7.0642 3.7 7.17301ZM3.7 5.53197C3.7 5.64078 3.65259 5.74513 3.5682 5.82207C3.48381 5.89901 3.36935 5.94223 3.25 5.94223C3.13066 5.94223 3.0162 5.89901 2.93181 5.82207C2.84741 5.74513 2.8 5.64078 2.8 5.53197C2.8 5.42316 2.84741 5.31881 2.93181 5.24187C3.0162 5.16493 3.13066 5.12171 3.25 5.12171C3.36935 5.12171 3.48381 5.16493 3.5682 5.24187C3.65259 5.31881 3.7 5.42316 3.7 5.53197Z"
+                                fill="#0E185F" />
+                        </svg>
+                        <span>Check-in</span>
+                    </div>
+                    <span>Add date</span>
+                </div>
+
+                <div class="loc_where_are_you_going_box">
+                    <div class="loc_box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
+                            <path
+                                d="M1 5.12172C1 3.57463 1 2.80088 1.5274 2.32046C2.05435 1.83964 2.90305 1.83964 4.6 1.83964H6.4C8.09695 1.83964 8.94565 1.83964 9.4726 2.32046C10 2.80088 10 3.57463 10 5.12172V5.94224C10 7.48933 10 8.26308 9.4726 8.74349C8.94565 9.22432 8.09695 9.22432 6.4 9.22432H4.6C2.90305 9.22432 2.05435 9.22432 1.5274 8.74349C1 8.26308 1 7.48933 1 5.94224V5.12172Z"
+                                stroke="#071952" stroke-width="1.5" />
+                            <path opacity="0.5"
+                                d="M3.25001 1.83951V1.22412M7.75001 1.83951V1.22412M1.22501 3.89081H9.77501"
+                                stroke="#071952" stroke-width="1.5" stroke-linecap="round" />
+                            <path
+                                d="M8.19999 7.17301C8.19999 7.28182 8.15258 7.38617 8.06819 7.46311C7.98379 7.54005 7.86933 7.58327 7.74999 7.58327C7.63064 7.58327 7.51618 7.54005 7.43179 7.46311C7.3474 7.38617 7.29999 7.28182 7.29999 7.17301C7.29999 7.0642 7.3474 6.95985 7.43179 6.88291C7.51618 6.80597 7.63064 6.76275 7.74999 6.76275C7.86933 6.76275 7.98379 6.80597 8.06819 6.88291C8.15258 6.95985 8.19999 7.0642 8.19999 7.17301ZM8.19999 5.53197C8.19999 5.64078 8.15258 5.74513 8.06819 5.82207C7.98379 5.89901 7.86933 5.94223 7.74999 5.94223C7.63064 5.94223 7.51618 5.89901 7.43179 5.82207C7.3474 5.74513 7.29999 5.64078 7.29999 5.53197C7.29999 5.42316 7.3474 5.31881 7.43179 5.24187C7.51618 5.16493 7.63064 5.12171 7.74999 5.12171C7.86933 5.12171 7.98379 5.16493 8.06819 5.24187C8.15258 5.31881 8.19999 5.42316 8.19999 5.53197ZM5.94999 7.17301C5.94999 7.28182 5.90258 7.38617 5.81819 7.46311C5.73379 7.54005 5.61933 7.58327 5.49999 7.58327C5.38064 7.58327 5.26618 7.54005 5.18179 7.46311C5.0974 7.38617 5.04999 7.28182 5.04999 7.17301C5.04999 7.0642 5.0974 6.95985 5.18179 6.88291C5.26618 6.80597 5.38064 6.76275 5.49999 6.76275C5.61933 6.76275 5.73379 6.80597 5.81819 6.88291C5.90258 6.95985 5.94999 7.0642 5.94999 7.17301ZM5.94999 5.53197C5.94999 5.64078 5.90258 5.74513 5.81819 5.82207C5.73379 5.89901 5.61933 5.94223 5.49999 5.94223C5.38064 5.94223 5.26618 5.89901 5.18179 5.82207C5.0974 5.74513 5.04999 5.64078 5.04999 5.53197C5.04999 5.42316 5.0974 5.31881 5.18179 5.24187C5.26618 5.16493 5.38064 5.12171 5.49999 5.12171C5.61933 5.12171 5.73379 5.16493 5.81819 5.24187C5.90258 5.31881 5.94999 5.42316 5.94999 5.53197ZM3.69999 7.17301C3.69999 7.28182 3.65258 7.38617 3.56819 7.46311C3.48379 7.54005 3.36934 7.58327 3.24999 7.58327C3.13064 7.58327 3.01618 7.54005 2.93179 7.46311C2.8474 7.38617 2.79999 7.28182 2.79999 7.17301C2.79999 7.0642 2.8474 6.95985 2.93179 6.88291C3.01618 6.80597 3.13064 6.76275 3.24999 6.76275C3.36934 6.76275 3.48379 6.80597 3.56819 6.88291C3.65258 6.95985 3.69999 7.0642 3.69999 7.17301ZM3.69999 5.53197C3.69999 5.64078 3.65258 5.74513 3.56819 5.82207C3.48379 5.89901 3.36934 5.94223 3.24999 5.94223C3.13064 5.94223 3.01618 5.89901 2.93179 5.82207C2.8474 5.74513 2.79999 5.64078 2.79999 5.53197C2.79999 5.42316 2.8474 5.31881 2.93179 5.24187C3.01618 5.16493 3.13064 5.12171 3.24999 5.12171C3.36934 5.12171 3.48379 5.16493 3.56819 5.24187C3.65258 5.31881 3.69999 5.42316 3.69999 5.53197Z"
+                                fill="#0E185F" />
+                        </svg>
+                        <span>Check-out</span>
+                    </div>
+                    <span>Add date</span>
+                </div>
+            </div>
+
+            <button class="book_nowbtn">BOOK NOW</button>
+
+
+            <div class="destionations_box">
+                <span>Destinations</span>
+            </div>
+
+            <div class="explore_our">
+                <span>Explore our interactive route map</span>
+            </div>
+
+            <div class="popup" id="booking-popup">
+                <div class="container">
+                    <span id="closeIcon" class="material-symbols-outlined">
+                        close
+                    </span>
+                    <h1>Book Your Travel</h1>
+                    <form id="booking-form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <div class="error-message" id="name-error"></div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <div class="error-message" id="email-error"></div>
+                        <label for="destination">Destination:</label>
+                        <input type="text" id="destination" name="destination" required>
+                        <div class="error-message" id="destination-error"></div>
+                        <label for="date">Travel Date:</label>
+                        <input type="date" id="date" name="date" required>
+                        <div class="error-message" id="date-error"></div>
+                        <button type="submit">Book Now</button>
+                    </form>
+                    <div id="message"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="second_page">
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12169.175560344576!2d44.5813067!3d40.31363465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sam!4v1709676339599!5m2!1sru!2sam"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- <div class="plus_minus_box">
+                <button>+</span>
+                    <button>-</span>
+            </div> -->
+        </div>
+
+        <div class="thred_page">
+            <div class="thred_page_text_box">
+                <span class="make_memarias">MAKE MEMARIAS WITH US</span>
+                <span class="Europe">Europe</span>
+            </div>
+
+            <div class="country_box">
+                <div class="carousel">
+                    <div class="countrys">
+                        <img src="images/thred_page_img1.png" alt="">
+                        <span>Italy</span>
+                        <button  class="buy-now">BUY NOW</button>
+                    </div>
+
+                    <div class="countrys2">
+                        <img src="images/thred_page_img2.png" alt="">
+                        <span>France</span>
+                        <button class="buy-now">BUY NOW</button>
+                    </div>
+
+                    <div class="countrys">
+                        <img src="images/thred_page_img3.png" alt="">
+                        <span>Germany</span>
+                        <button class="buy-now">BUY NOW</button>
+                    </div>
+
+                    <div class="countrys4">
+                        <img src="images/thred_page_img4.png" alt="">
+                        <span>Spain</span>
+                        <button class="buy-now">BUY NOW</button>
+                    </div>
+                    <button id="prev" class="prev">Prev Country</button>
+                    <button class="next">Next Country</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="fourth_page">
+            <div class="fourth_page_text_box">
+                <span class="asia">Asia</span>
+            </div>
+
+            <div class="country_box">
+                <div class="carousel">
+                    <div class="countrys">
+                        <img src="images/fourth_page_img1.png" alt="">
+                        <span>JAPAN</span>
+                        <button class="buy-now">BUY NOW</button>
+                    </div>
+
+                    <div class="countrys2">
+                        <img src="images/fourth_page_img_2.png" alt="">
+                        <span>UAE</span>
+                        <button class="buy-now">BUY NOW</button>
+                    </div>
+
+                    <div class="countrys">
+                        <img src="images/fourth_page_img3.png" alt="">
+                        <span>CHINA</span>
+                        <button class="buy-now">BUY NOW</button>
+                    </div>
+
+                    <div class="countrys4">
+                        <img src="images/fourth_page_img4.png" alt="">
+                        <span>INDIA</span>
+                        <button class="buy-now">BUY NOW</button>
+                    </div>
+                    <button class="prev">Prev Country</button>
+                    <button class="next">Next Country</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="fivth_page">
+            <div class="fivth_page_text_box">
+                <span class="africa">africa</span>
+            </div>
+
+            <div class="country_box">
+                <div class="carousel">
+                    <div class="countrys">
+                        <img src="images/fivth_page_img1.png" alt="">
+                        <span>EGYPT</span>
+                        <button class="buy-now">BUY NOW</button>
+                    </div>
+
+                    <div class="countrys2">
+                        <img src="images/fivth_page_img2.png" alt="">
+                        <span>morocco</span>
+                        <button class="buy-now">BUY NOW</button>
+                    </div>
+
+                    <div class="countrys">
+                        <img src="images/fivth_page_img3.png" alt="">
+                        <span>senegal</span>
+                        <button class="buy-now">BUY NOW</button>
+                    </div>
+
+                    <div class="countrys4">
+                        <img src="images/fivth_page_img4.png" alt="">
+                        <span>kenya</span>
+                        <button class="buy-now">BUY NOW</button>
+                    </div>
+                    <button class="prev">Prev Country</button>
+                    <button class="next">Next Country</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="sixth_page">
+            <span class="Sight_seeting">Sight Seeing & Air Tour Experience</span>
+
+            <div class="date_box">
+                <span class="set_date">Set Date</span>
+                <div class="verev_border">
+                    <div class="bord_1">
+                        <input type="text" placeholder="Day">
+                    </div>
+
+                    <div class="bord2">
+                        <input type="text" placeholder="Month">
+                    </div>
+
+                    <div class="bord_3">
+                        <input type="text" placeholder="Year">
+                    </div>
+                </div>
+
+                <div class="from_to_box">
+                    <span>From</span>
+
+                    <span>To</span>
+                </div>
+
+                <div class="nerqev_border">
+                    <div class="bord_4">
+                        <input type="text" placeholder="Day">
+                    </div>
+
+                    <div class="bord_5">
+                        <input type="text" placeholder="Day">
+                    </div>
+                </div>
+
+
+                <button id="buyNowDate" class="buy-now">BUY NOW</button>
+            </div>
+
+            <div class="nkar_box_sixth_page">
+                <img src="images/obshi_sixth_page nkar.png" alt="">
+            </div>
+        </div>
+
+        <div class="seventh_page">
+            <span class="Earning_points">Earning Points</span>
+
+            <div class="carousel">
+                <div class="sev_page_box">
+                    <div class="_box">
+                        <img src="images/seventh_page_box_img1.png" alt="">
+                        <div class="text_box_dzax">
+                            <span class="flightsandBaggage">Flights & Baggage</span>
+                            <span>Get 5% Cashbach</span>
+                            <span>On fare & Surcharge</span>
+
+                            <button class="show_me_now_btn">SHOW ME NOW</button>
+                        </div>
+                    </div>
+
+                    <div class="_box">
+                        <img src="images/seventh_page_img_box_2.png" alt="">
+                        <div class="text_box_dzax">
+                            <span class="flightsandBaggage">Seats, Meals & More</span>
+                            <span>Get 10% Cashbach</span>
+                            <span>On fare & Surcharge</span>
+
+                            <button class="show_me_now_btn">SHOW ME NOW</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sev_page_box2">
+                    <div class="_box">
+                        <div class="text_box_dzax">
+                            <span class="flightsandBaggage">Family Account</span>
+                            <span>Pool your points together and
+                                spent points with your family</span>
+                            <button class="show_me_now_btn">EXPLORE</button>
+                        </div>
+                        <img src="images/seventh_page_box_3img.png" alt="">
+                    </div>
+
+                    <div class="_box">
+                        <div class="text_box_dzax">
+                            <span class="flightsandBaggage">Claim Missing Points</span>
+                            <span>Missing Safe flight points
+                                for your past flights?</span>
+                            <button class="show_me_now_btn">LOGIN</button>
+                        </div>
+                        <img src="images/seventh_page_img_4.png" alt="">
+                    </div>
+                </div>
+                <button id="prev_" class="prev">Prev Country</button>
+                <button id="next_" class="next">Next Country</button>
+            </div>
+        </div>
+
+
+        <div class="eight_page">
+            <div class="eight_box_x">
+                <div class="text_box_eight_page">
+                    <span class="Earning_points_span2">Earning Points</span>
+                    <span class="arajinin_text">
+                        <span class="karmir">Earn</span> 5% cashback as points on <br>
+                        your flight and baggage <br>
+                        spend and 10% on seats, meals <br>
+                        and everything else! <br>
+                        Simply add your AirRewards <br>
+                        email id to your <br>
+                        flight booking! </span>
+                    <span class="erkrord_text"><span class="karmir">Bookings</span> made on SAFE FLIGHT <br>
+                        login to your SAFE FLIGHT <br>
+                        account while making the <br>
+                        booking and after you fly, <br>
+                        the points will be credited <br>
+                        to your account <br>
+                        automatically!</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="nine_page">
+            <div class="nine_box_x">
+                <div class="nine_page_text_box">
+                    <span><span class="family">Family Account</span><br><br>
+                        <span class="karmir">Want</span>
+                        to earn points for <br>
+                        your family members' flights?<br>
+                        Register your family members <br>
+                        for the AirRewards program <br>
+                        and set your email address as <br>
+                        the family head. You can then <br>
+                        use their points <br>
+                        as you please! <br>
+                        <span class="karmir">Note:</span>
+                        50% of the points earned <br>
+                        by your family members will be <br>
+                        credited to your account, <br>
+                        rest is forfeited. A maximum <br>
+                        of 8 members can be linked <br>
+                        to the family head.</span>
+                </div>
+            </div>
+        </div>
+
+
+        <footer>
+            <span class="group_companies">GROUP COMPANIES</span>
+
+            <span class="foot_text">Today, nearly 87 years later, the Safe flight are still making strides in
+                aviation.
+                <br>
+                From Air Lines and the long-since nationalised Air India to strategic joint <br>
+                ventures with AirAsia Berhad and Singapore Airlines (SIA) for AirAsia <br>
+                India and Vistara, respectively, Safe has constantly reached for the skies. <br>
+                The two joint venture airlines operate independently with their respective <br>
+                business models — low-cost (AirAsia) India and full-service (Vistara). <br>
+                Vistara scaled up its operations significantly in 2019 by adding nine <br>
+                Boeing 737-800NG aircraft to its fleet and taking the final count of <br>
+                aircraft to 31 which helped the airline expand its network by more than 50%. <br></span>
+
+            <div class="nerqev_box_foot">
+                <div class="arajin_foot">
+                    <span class="navigate">NAVIGATE</span>
+                    <span>Group companies</span>
+                    <span>Privance</span>
+                    <span>Career</span>
+                    <span>Media center</span>
+                    <span>Contacts</span>
+                </div>
+
+                <div class="arajin_foot">
+                    <span class="navigate">CONTACTS</span>
+                    <span>Vilnius, Lithuania</span>
+                    <span>E-mail Safeflight.com</span>
+                </div>
+
+                <div class="arajin_foot">
+                    <span class="navigate">SUBSCRIBE FOR NEWS</span>
+                    <form action="">
+                        <label for="email">
+                            <input id="email" type="email" placeholder="Enter your E-mail">
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </footer>
+
+
+    </main>
+
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
